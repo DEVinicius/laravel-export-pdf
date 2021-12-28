@@ -7,9 +7,9 @@ class MainController extends Controller {
     public function index() {
         $data = [
             "shopkeeper" => [
-                "name" => "Vinicius Lojista",
+                "name" => "Agavi Materiais Elétricos",
                 "email" => "vinicius.lojista@mailinator.com",
-                "phone" => "(11) 99999-1111"
+                "phone" => "(11) 123124-036124127"
             ],
             "name" => "Vinicius Pereira de Oliveira",
             "email" => "vinicius.teste@mailinator.com",
@@ -21,9 +21,21 @@ class MainController extends Controller {
                     "description" => "Garrafa Agua mineral Sem Gas 1L",
                     "price" => "5,00",
                     "total" => "10,00"
+                ],
+                [
+                    "quantity" => "2",
+                    "description" => "Sacos de cimento",
+                    "price" => "25,00",
+                    "total" => "50,00"
+                ],
+                [
+                    "quantity" => "1",
+                    "description" => "Colher de Pedreiro",
+                    "price" => "25,00",
+                    "total" => "25,00"
                 ]
             ],
-            "total_buy" => "10,00",
+            "total_buy" => "85,00",
             "date" => "12/12/2021",
             "hour" => "12:20",
             "payment" => [

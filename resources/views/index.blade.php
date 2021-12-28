@@ -179,6 +179,10 @@
 
                 margin: 1rem 0 0 0;
             }
+
+            .page-break {
+                page-break-after: always;
+            }
         </style>
     </head>
     <body>
@@ -257,6 +261,7 @@
                     </tr>
                 </tfoot>
             </table>
+            <div class="page-break"></div>
             <div class="description">
                 <div class="row">
                     <div class="box height-3 padding-1">
@@ -317,13 +322,13 @@
                 <div class="file-number">
                     Romaneio nº {{$sellItemId}}
                 </div>
-                <footer>
-                    <div class="slogan">
-                        <h3>Haymay - Um Jeito Diferente de Comprar!</h3>
-                        <h5>Obrigado pela Confiança</h5>
-                    </div>
-                </footer>
             </div>
+            <footer>
+                <div class="slogan">
+                    <h3>Haymay - Um Jeito Diferente de Comprar!</h3>
+                    <h5>Obrigado pela Confiança</h5>
+                </div>
+            </footer>
 
         </main>
     </body>
